@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ّFinal Project Gallary</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body onload="setImages()" >
+  <h1>Final Project!</h1>
+  <p>Hover over images to have a better glance!</p>
+  <p>refresh the page to see more pictues!</p>
+
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+  <div class="flex">
+    <img class="preview" src="pics/Milad Tower.jpeg" alt="Milad Tower" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" src="pics/Azadi Tower.jpeg" alt="Azadi Tower" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class="preview" src="pics/Naghsh Rostam.jpg" alt="Ancient tomb of persian kings" onmouseover="upDate(this)"
+      onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  </div>
+
+</body>
+
+</html>
